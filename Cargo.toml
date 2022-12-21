@@ -1,0 +1,12 @@
+[package]
+name = "alsa-sine-wave-test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+alsa = "0.7.0"
+anyhow = "1.0.68"
+hound = "3.5.0"
+
+[profile.release]
+lto = true
